@@ -1,9 +1,8 @@
 # Description:
 #   Returns a link to a person's OKRs
-#
+#   See https://www.small-improvements.com/documentation/third-party/wicket:pageMapName/wicket-50
 # Commands:
 #   hubot okr[s] <name> 
-#   hubot time <timezone> <query> - Time in timezone based on query
  
 module.exports = (robot) ->
   robot.respond /okr[s]? (.*)/i, (msg) ->
